@@ -1,4 +1,12 @@
 /* common */
+:root {
+    --black: rgba(44, 62, 80, 1);
+    --green: rgba(26, 188, 156, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey: rgba(58, 84, 109, 1);
+    --dark-grey: rgba(44, 62, 80, 1);
+}
+
 body {
     background-color: rgb(93, 148, 155);
     /* width: 1400px; */
@@ -7,26 +15,87 @@ body {
     background-color: white;
     color: black;
 }
-.bg-black1{
-    background-color: rgb(124, 28, 148);
+
+.bg-black1 {
+    background-color:var(--black);
 }
+
 .bg-green {
-    background-color: green;
+    background-color: var(--green);
 }
-.bg-grey{
-    background-color: gray;
+
+.bg-grey {
+    background-color: var(--grey);
 }
-.bg-dark-grey{
-    background-color:rgb(143, 29, 29);
+
+.bg-dark-grey {
+    background-color:var(--dark-grey);
 }
+
+
 /* main  */
-#hero{
+#hero {
     padding-top: 100px;
+    color: white;
 }
-img.avatar{
+
+img.avatar {
     width: 70%;
-    max-width:100% ;
+    max-width: 100%;
 }
+
+.icon,
+.icon-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+
+.icon::before {
+    content: "";
+    display: block;
+    background-color: white;
+    width: 100px;
+    border: 2px solid white;
+
+}
+
+.icon::after {
+    background-color: white;
+    content: "";
+    display: block;
+    width: 100px;
+    border: 2px solid white;
+}
+
+.icon .fas.fa-star {
+    color: white;
+}
+
+
+.icon-b::before {
+    content: "";
+    display: block;
+    background-color: var(--dark-grey);
+    width: 100px;
+    border: 2px solid var(--dark-grey);
+}
+
+.icon-b::after {
+    background-color: var(--dark-grey);
+    content: "";
+    display: block;
+    width: 100px;
+    border: 2px solid var(--dark-grey);
+}
+
+.icon .fas.fa-star,
+.icon-b .fas.fa-star {
+    margin: 0 15px;
+}
+
 /* header  */
 
 header {

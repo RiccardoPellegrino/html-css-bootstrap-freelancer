@@ -10,6 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>bootstrap</title>
 
@@ -19,25 +22,26 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-black1 h-100">
             <div class="container-md">
-              <a class="navbar-brand text-uppercase" href="#">Start Bootsrap</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#boot-navbar" aria-controls="boot-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="boot-navbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand text-uppercase" href="#">Start Bootsrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#boot-navbar"
+                    aria-controls="boot-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="boot-navbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" aria-current="page" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
     <main>
@@ -47,23 +51,77 @@
                     <div class="col-auto text-center">
                         <img class="avatar" src="./img/avatar.svg" alt="avatar">
                         <h1 class="text-uppercase">start bootstrap</h1>
+                        <div class="container d-flex align-items-center flex-column">
+                            <div class="icon">
+                                <i class="fas fa-star fs-3"></i>
+                            </div>
+                            <p class="text-uppercase mb-0 mb-5">Graphic Artist - Web Designer -
+                                Illustrator</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="portfolio" class="">
-            <div class="container-md">
-                portfolio
+        <section id="portfolio">
+            <div class="container-md mt-5 mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-auto text-center">
+                        <h1 class="text-uppercase">Portfolio</h1>
+                        <div class="container d-flex align-items-center flex-column">
+                            <div class="icon-b">
+                                <i class="fas fa-star fs-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 justify-content-center">
+                    <div class="col">
+                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="Cabin-img">
+                    </div>
+                    <div class="col">
+                        <img src="./img/cake.png" class="img-fluid rounded-3" alt="Cake-img">
+                    </div>
+                    <div class="col">
+                        <img src="./img/circus.png" class="img-fluid rounded-3" alt="Circus-img">
+                    </div>
+                    <div class="col">
+                        <img src="./img/game.png" class="img-fluid rounded-3" alt="Game-img">
+                    </div>
+                    <div class="col">
+                        <img src="./img/safe.png" class="img-fluid rounded-3" alt="Safe-img">
+                    </div>
+                    <div class="col">
+                        <img src="./img/submarine.png" class="img-fluid rounded-3" alt="Submarine-img">
+                    </div>
+                </div>
             </div>
         </section>
         <section id="about" class="bg-green ">
             <div class="container-md">
-                about
+                <div class="row justify-content-center">
+                    <div class="col-auto text-center">
+                        <h1 class="text-uppercase text-white">About</h1>
+                        <div class="container d-flex align-items-center flex-column">
+                            <div class="icon">
+                                <i class="fas fa-star fs-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="contact" class="">
             <div class="container-md">
-                contact
+                <div class="row justify-content-center">
+                    <div class="col-auto text-center">
+                        <h1 class="text-uppercase">Contact me</h1>
+                        <div class="container d-flex align-items-center flex-column">
+                            <div class="icon-b">
+                                <i class="fas fa-star fs-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
