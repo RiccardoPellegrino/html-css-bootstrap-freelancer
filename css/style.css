@@ -1,0 +1,38 @@
+/* common */
+body {
+    background-color: rgb(93, 148, 155);
+    /* width: 1400px; */
+    /* margin: 0 auto; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: black;
+}
+.bg-black1{
+    background-color: rgb(124, 28, 148);
+}
+.bg-green {
+    background-color: green;
+}
+.bg-grey{
+    background-color: gray;
+}
+.bg-dark-grey{
+    background-color:rgb(143, 29, 29);
+}
+/* main  */
+#hero{
+    padding-top: 100px;
+}
+img.avatar{
+    width: 70%;
+    max-width:100% ;
+}
+/* header  */
+
+header {
+    background-color: black;
+    position: fixed;
+    height: 90px;
+    top: 0;
+    width: 100%;
+}
