@@ -132,3 +132,6 @@ header {
     padding: 10px;
     
 }
+a.nav-link:hover{
+    color: var(--green);
+}
