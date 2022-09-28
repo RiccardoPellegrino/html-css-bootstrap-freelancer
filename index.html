@@ -25,7 +25,7 @@
                 <a class="navbar-brand text-uppercase" href="#">Start Bootsrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#boot-navbar"
                     aria-controls="boot-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars" style="color: var(--green);"></i>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="boot-navbar">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -121,31 +121,31 @@
                 <div class="row justify-content-center">
                     <div class="col-auto text-center">
                         <h1 class="text-uppercase text-white mt-5">About</h1>
-                        <div class="container d-flex align-items-center flex-column">
-                            <div class="icon">
-                                <i class="fas fa-star fs-3"></i>
-                            </div>
-                            <div class="row">
-                                <p class=" col-sm-12 col-md-6 text-white text-start fs-4 px-5 mt-5">
-                                    Freelance is a free bootstrap theme
-                                    created by Strart Bootstrap. The download includes the complete source files
-                                    including HTML ,
-                                    CSS , and JavaScript as well as optional LESS stylesheets for easy customization.
-                                </p>
-
-                                <p class=" col-sm-12 col-md-6 text-white text-start fs-4 px-5 mt-5">
-                                    Whether you're a student looking to showcase your work , a professional looking to
-                                    attract
-                                    clients , or a graphic artist looking to share your projects , this template is the
-                                    perfect
-                                    starting point!
-                                </p>
-                            </div>
-                            <div class="text-center ">
-                                <button type="button" class="col btn btn-xl btn-outline-light mt-5 mb-5"><i
-                                        class="fa-solid fa-download"></i> Download</button>
-                            </div>
+                        <!-- <div class="container d-flex align-items-center flex-column"> -->
+                        <div class="icon">
+                            <i class="fas fa-star fs-3"></i>
                         </div>
+                        <div class="row">
+                            <p class=" col-sm-12 col-md-6 text-white text-start fs-4 px-5 mt-5">
+                                Freelance is a free bootstrap theme
+                                created by Strart Bootstrap. The download includes the complete source files
+                                including HTML ,
+                                CSS , and JavaScript as well as optional LESS stylesheets for easy customization.
+                            </p>
+
+                            <p class=" col-sm-12 col-md-6 text-white text-start fs-4 px-5 mt-5">
+                                Whether you're a student looking to showcase your work , a professional looking to
+                                attract
+                                clients , or a graphic artist looking to share your projects , this template is the
+                                perfect
+                                starting point!
+                            </p>
+                        </div>
+                        <div class="text-center ">
+                            <button type="button" class="col btn btn-xl btn-outline-light mt-5 mb-5"><i
+                                    class="fa-solid fa-download"></i> Download</button>
+                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
             </div>
@@ -154,18 +154,55 @@
         <!-- contact  -->
 
         <section id="contact" class="">
-            <div class="container-md">
-                <div class="row justify-content-center">
-                    <div class="col-auto text-center">
-                        <h1 class="text-uppercase">Contact me</h1>
-                        <!-- <div class="container d-flex align-items-center flex-column"> -->
+            <div class="container">
+
+                <div class="text-center">
+                    <h1 class="text-uppercase mt-5">Contact me</h1>
+                    <div class="container d-flex align-items-center flex-column">
                         <div class="icon-b">
                             <i class="fas fa-star fs-3"></i>
                         </div>
+                        <div class="col-10 m-auto">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    data-sb-validations="required" />
+                                <label for="name">Name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
+                                </div>
+                            </div>
 
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    data-sb-validations="required" />
+                                <label for="name">Email Adress</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">An email is required.
+                                </div>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    data-sb-validations="required" />
+                                <label for="name">Phone Number</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A phone number is
+                                    required.</div>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text"
+                                    placeholder="Enter your message here..." style="height: 10rem"
+                                    data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is
+                                    required.</div>
+                            </div>
+                            <div class="text-start">
+                                <button type="button"
+                                    class="btn btn-success border-1 text-white fs-4 col-auto mb-5">Send</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
             </div>
         </section>
     </main>

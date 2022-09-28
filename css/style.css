@@ -1,4 +1,8 @@
 /* common */
+html{
+    scroll-padding-top: 70px;
+}
+
 :root {
     --black: rgba(44, 62, 80, 1);
     --green: rgba(26, 188, 156, 1);
@@ -116,22 +120,26 @@ img.avatar {
     z-index: 100;
 
 }
-.layover-container:hover::after{
+
+.layover-container:hover::after {
     opacity: 1;
-   
+
 }
+
 
 /* header  */
 
 header {
-    background-color:var(--dark-grey);
+    background-color: var(--dark-grey);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 500;
     padding: 10px;
-    
+
 }
-a.nav-link:hover{
+
+a.nav-link:hover {
+
     color: var(--green);
 }
