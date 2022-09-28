@@ -151,3 +151,6 @@ a.nav-link:hover {
 .sottolinea:hover{
     text-decoration: underline;
 }
+#footer-bottom{
+    height: 60px;
+}
