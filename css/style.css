@@ -1,5 +1,5 @@
 /* common */
-html{
+html {
     scroll-padding-top: 70px;
 }
 
@@ -33,7 +33,9 @@ body {
 .bg-dark-grey {
     background-color: var(--dark-grey);
 }
-
+li{
+    color: white;
+}
 
 /* main  */
 #hero {
@@ -126,6 +128,9 @@ img.avatar {
 
 }
 
+#about p {
+    font-size: 2em !important;
+}
 
 /* header  */
 
@@ -138,19 +143,28 @@ header {
     padding: 10px;
 
 }
-
+a.nav-link{
+    color: white;
+}
 a.nav-link:hover {
 
     color: var(--green);
 }
 
-.div-icone{
-    height:20px;
-    width: 20px;
-}
-.sottolinea:hover{
+/* footer  */
+
+.sottolinea:hover {
     text-decoration: underline;
 }
-#footer-bottom{
+
+#footer-bottom {
     height: 60px;
+}
+
+#footer-top p {
+    font-size: 1.5em;
+}
+.div-icone {
+    height: 20px;
+    width: 20px;
 }
